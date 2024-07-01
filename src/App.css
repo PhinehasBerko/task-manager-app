@@ -1,3 +1,11 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f73c0;
+}
 
 .App-header {
   background-color: #282c34;
@@ -14,12 +22,28 @@
   text-transform: uppercase;
   font-size: 50px;
   z-index: 1;
-  text-align: center;
+  
 }
-
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
 @media (max-width:800px){
   .heading{
     margin: 15px 0;
     font-size: 35px;
+  }
+  .todos{
+    width: 95%;
+  }
+  .todos_single{
+    width: 100px ;
+  }
+}
+
+@media(max-width: 1200px){
+  .todos_single{
+    width: 40%;
   }
 }

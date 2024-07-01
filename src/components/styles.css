@@ -53,13 +53,13 @@
     margin-top: 15px;
     background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
 }
-.todos_single--text{
+.todos_single_text{
     flex: 1;
     padding: 5px;
     border: none;
     font-size: 20px;
 }
-.todos_single--text:focus{
+.todos_single_text:focus{
     outline: none;
 }
 
